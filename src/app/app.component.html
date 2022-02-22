@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+This is the editor.
+<ejs-richtexteditor
+  id="defaultRTE"
+  [toolbarSettings]="tools"
+  [pasteCleanupSettings]="pasteCleanupSettings"
+  [(ngModel)]="this.value"
+  name="text"
+  #text="ngModel"
+>
+</ejs-richtexteditor>
