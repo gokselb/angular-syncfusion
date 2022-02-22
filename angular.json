@@ -27,6 +27,11 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/@syncfusion"
+              ]
+            },
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -34,7 +39,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
