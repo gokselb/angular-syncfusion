@@ -6,7 +6,7 @@
         "headers": [
           {
             "key": "Content-Security-Policy",
-            "value": "script-src 'self' *.zendesk.com  *.zdassets.com *.northdata.de *.sentry.io api.staging.prospeum.com fonts.gstatic.com fonts.googleapis.com/ maxcdn.bootstrapcdn.com *.googletagmanager.com *.google-analytics.com 'nonce-2b060eb23fa67c5580ee8d4575d73150'"
+            "value": "script-src 'self' fonts.gstatic.com fonts.googleapis.com/ maxcdn.bootstrapcdn.com *.googletagmanager.com *.google-analytics.com "
           }
         ]
       }
