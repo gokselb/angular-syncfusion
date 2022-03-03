@@ -6,7 +6,7 @@
         "headers": [
           {
             "key": "Content-Security-Policy",
-            "value": "script-src 'self' fonts.gstatic.com fonts.googleapis.com/ maxcdn.bootstrapcdn.com *.googletagmanager.com *.google-analytics.com 'self';  'unsafe-eval' https://cdn.syncfusion.com;"
+            "value": "script-src 'self' fonts.gstatic.com fonts.googleapis.com/ maxcdn.bootstrapcdn.com *.googletagmanager.com *.google-analytics.com;  'unsafe-eval' https://cdn.syncfusion.com;"
           }
         ]
       }
