@@ -7,13 +7,14 @@ import {
   ImageService,
   LinkService,
   ToolbarService,
+  PasteCleanupService,
 } from '@syncfusion/ej2-angular-richtexteditor';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [ToolbarService, LinkService, ImageService, HtmlEditorService],
+  providers: [ToolbarService, LinkService, ImageService, HtmlEditorService, PasteCleanupService],
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
